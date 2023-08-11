@@ -38,9 +38,9 @@ let canva = document.getElementById("canva");
 crearBarra(canva);
 let photoshop = document.getElementById("photoshop");
 crearBarra(photoshop);
-let php = document.getElementById("php");
-crearBarra(php);
-let Github = document.getElementById("Github");
+let css = document.getElementById("css");
+crearBarra(css);
+let Github = document.getElementById("github");
 crearBarra(Github);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
@@ -68,8 +68,8 @@ function efectoHabilidades(){
         const intervalPhotoshop = setInterval(function(){
             pintarBarra(photoshop, 15, 3, intervalPhotoshop);
         },100);
-        const intervalPhp = setInterval(function(){
-            pintarBarra(php, 16, 4, intervalPhp);
+        const intervalcss = setInterval(function(){
+            pintarBarra(css, 16, 4, intervalcss);
         },100);
         const intervalGithub = setInterval(function(){
             pintarBarra(Github, 11, 5, intervalGithub);
